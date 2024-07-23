@@ -1,0 +1,40 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.color-primary-login {
+    background-color: #362248;
+    color: white;
+}
+
+.color-primary-login:hover{
+    background-color: rgb(234, 231, 231);
+    color: #362248;
+}
+.swiper-wrapper{
+
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+    overflow-x: hidden;
+    cursor: grab;
+  }
+  .swiper-pagination {
+    bottom: 0 !important; /* لضمان أن الكرات ستكون في الأسفل بدون خط */
+    visibility: hidden;
+  }
+  .swiper-scrollbar{
+    background: none !important;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after{
+    display: none;
+  }
+
+
+  /* start amnamion  infinty  */
